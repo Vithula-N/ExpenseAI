@@ -1,16 +1,43 @@
-# React + Vite
+# ExpenseAI – AI-Powered Expense Tracker
+ExpenseAI is a personal finance management application designed to help users
+track income, monitor expenses, manage monthly budgets, and understand their
+spending habits through AI-generated financial insights.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+ **Financial Dashboard** – View income, expenses, balance, and savings.
+**Expense Tracking** – Record, edit, delete, and search expenses.
+ **Income Management** – Record and manage income entries.
+**Budget Planner** – Set monthly category-wise budgets and monitor spending.
+ **Visual Analytics** – Explore spending patterns through charts.
+**AI Financial Insights** – Generate AI-powered summaries and suggestions.
+ **CSV Export** – Export financial records and monthly reports.
+**Local Storage** – Retain financial entries in the browser.
+ **Responsive Interface** – Manage finances through a clean dashboard.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Frontend
+- React
+- JavaScript
+- Vite
+- CSS
+- Recharts
 
-## React Compiler
+### Backend
+- Node.js
+- Express.js
+- Google Gemini API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install the following before running the project:
+- Node.js
+- npm
+- A Google Gemini API key
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Vithula-N/ExpenseAI.git
+cd ExpenseAI
